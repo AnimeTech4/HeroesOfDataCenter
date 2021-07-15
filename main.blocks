@@ -1,4 +1,18 @@
-<xml xmlns="http://www.w3.org/1999/xhtml">
-  <variables></variables>
-  <block type="pxt-on-start" x="0" y="0"></block>
-</xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="U`Etsn4l`NYry[84_@DC">mySprite</variable><variable type="KIND_SpriteKind" id="oAPsu{U*hYv9sy8,/jf8">Player</variable><variable type="KIND_SpriteKind" id="Xr8SwKk1QY.0(:-qTR1F">Projectile</variable><variable type="KIND_SpriteKind" id="J#.y0jziB~+~*}5QN{G5">Food</variable><variable type="KIND_SpriteKind" id="ijXgoH3hkk+:|xzYLMw*">Enemy</variable></variables><block type="pxt-on-start" id="9EVtJegmL99.IhxPLCJY" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundcolor" id="+(?ca.EZK*{8w6$i`e+7"><value name="color"><shadow type="colorindexpicker" id="K`qdQX/~?,@siJa[u1}x"><field name="index">15</field></shadow></value><next><block type="tilemap_editor" id="a{x0ro=;Pg3!.L0dC|Km"><field name="tilemap">tilemap`level1`</field><data>{"commentRefs":[],"fieldData":{"tilemap":"level1"}}</data><next><block type="variables_set" id="3DoT358]3]K-uh`)}M$|"><field name="VAR" id="U`Etsn4l`NYry[84_@DC">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="*3F_Mw,oJ|%S#2sHf~.k"><value name="img"><shadow type="screen_image_picker" id="1BS/tN%iL{nsHDiXS[qt"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"1BS/tN%iL{nsHDiXS[qt"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="0N66jFiOz8q`3fU4%+Fk"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="mapplaceontile" id="O:;zg*%Z:Elc8AOenOd}"><value name="sprite"><block type="variables_get" id="_Oa[YCN3WQ3,XQ;ZFEw2"><field name="VAR" id="U`Etsn4l`NYry[84_@DC">mySprite</field></block></value><value name="loc"><shadow type="mapgettile" id="e:Tu)+xTgXa^H$n4onU}"><value name="col"><shadow type="math_number" id="YZ0v5IyH^UsK[ah9A{;d"><field name="NUM">0</field></shadow></value><value name="row"><shadow type="math_number" id="%=fO8D=#c6bc.~ocIi9G"><field name="NUM">0</field></shadow></value></shadow></value><next><block type="game_control_sprite" id="WtKjHZ4)VSZVd5.lt-]N"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id="gj}Cd*d;3{?n6)|B:XPE"><field name="VAR" id="U`Etsn4l`NYry[84_@DC">mySprite</field></block></value><next><block type="camerafollow" id="}Rauyzpm_{F$n.J}^{]k"><value name="sprite"><block type="variables_get" id="8c`_I$vsQ;wyhc*XOl^i"><field name="VAR" id="U`Etsn4l`NYry[84_@DC">mySprite</field></block></value><next><block type="game_show_long_text" id="YN!Xt@d5A~Ye*l0?PQ(`"><field name="layout">DialogLayout.Full</field><value name="str"><shadow type="text" id="m;//d2PE5jv+BP~{ja$t"><field name="TEXT">Και οι αστυνομικές δυνάμεις κυνηγούν τον hacker σε σκοτεινά σοκάκια</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
