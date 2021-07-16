@@ -15,4 +15,72 @@
 . . e e f 8 8 8 8 8 8 f e f . . 
 . . . . c b 8 8 8 8 b c . f . . 
 . . . . . f f f f f f . . . . . 
-`</field><data>{"commentRefs":[],"fieldData":{"img":"1BS/tN%iL{nsHDiXS[qt"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="0N66jFiOz8q`3fU4%+Fk"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="mapplaceontile" id="O:;zg*%Z:Elc8AOenOd}"><value name="sprite"><block type="variables_get" id="_Oa[YCN3WQ3,XQ;ZFEw2"><field name="VAR" id="U`Etsn4l`NYry[84_@DC">mySprite</field></block></value><value name="loc"><shadow type="mapgettile" id="e:Tu)+xTgXa^H$n4onU}"><value name="col"><shadow type="math_number" id="YZ0v5IyH^UsK[ah9A{;d"><field name="NUM">0</field></shadow></value><value name="row"><shadow type="math_number" id="%=fO8D=#c6bc.~ocIi9G"><field name="NUM">0</field></shadow></value></shadow></value><next><block type="game_control_sprite" id="WtKjHZ4)VSZVd5.lt-]N"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id="gj}Cd*d;3{?n6)|B:XPE"><field name="VAR" id="U`Etsn4l`NYry[84_@DC">mySprite</field></block></value><next><block type="camerafollow" id="}Rauyzpm_{F$n.J}^{]k"><value name="sprite"><block type="variables_get" id="8c`_I$vsQ;wyhc*XOl^i"><field name="VAR" id="U`Etsn4l`NYry[84_@DC">mySprite</field></block></value><next><block type="game_show_long_text" id="YN!Xt@d5A~Ye*l0?PQ(`"><field name="layout">DialogLayout.Full</field><value name="str"><shadow type="text" id="m;//d2PE5jv+BP~{ja$t"><field name="TEXT">Και οι αστυνομικές δυνάμεις κυνηγούν τον hacker σε σκοτεινά σοκάκια</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
+`</field><data>{"commentRefs":[],"fieldData":{"img":"1BS/tN%iL{nsHDiXS[qt"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="0N66jFiOz8q`3fU4%+Fk"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="mapplaceontile" id="O:;zg*%Z:Elc8AOenOd}"><value name="sprite"><block type="variables_get" id="_Oa[YCN3WQ3,XQ;ZFEw2"><field name="VAR" id="U`Etsn4l`NYry[84_@DC">mySprite</field></block></value><value name="loc"><shadow type="mapgettile" id="e:Tu)+xTgXa^H$n4onU}"><value name="col"><shadow type="math_number" id="YZ0v5IyH^UsK[ah9A{;d"><field name="NUM">0</field></shadow></value><value name="row"><shadow type="math_number" id="%=fO8D=#c6bc.~ocIi9G"><field name="NUM">0</field></shadow></value></shadow></value><next><block type="game_control_sprite" id="WtKjHZ4)VSZVd5.lt-]N"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id="gj}Cd*d;3{?n6)|B:XPE"><field name="VAR" id="U`Etsn4l`NYry[84_@DC">mySprite</field></block></value><next><block type="camerafollow" id="}Rauyzpm_{F$n.J}^{]k"><value name="sprite"><block type="variables_get" id="8c`_I$vsQ;wyhc*XOl^i"><field name="VAR" id="U`Etsn4l`NYry[84_@DC">mySprite</field></block></value><next><block type="game_show_long_text" id="YN!Xt@d5A~Ye*l0?PQ(`"><field name="layout">DialogLayout.Full</field><value name="str"><shadow type="text" id="m;//d2PE5jv+BP~{ja$t"><field name="TEXT">Και οι αστυνομικές δυνάμεις κυνηγούν τον hacker σε σκοτεινά σοκάκια</field></shadow></value><next><block type="playMelody" id="#,;lSVC-YO5XNRNJcVaU"><value name="melody"><shadow type="melody_editor" id="AYq(HJs-SikOgRC4^e(S"><field name="melody">"E B C5 A B G A F "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="a[g.kQ/BCtV`5nvgW~nw"><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">296</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="spriteshittile" id="r@5Wz-.BC3]7P5dT$Qw]" x="10" y="490"><value name="HANDLER_DRAG_PARAM_sprite"><shadow type="argument_reporter_custom" id="?AThz2KUebG*.+z3ejpO"><mutation typename="Sprite"/><field name="VALUE">sprite</field></shadow></value><value name="kind"><shadow type="spritekind" id="!wru+86|M1{W-$0~/eD."><field name="MEMBER">Player</field></shadow></value><value name="tile"><shadow type="tileset_tile_picker" id="^i51|g~ExBcqunu^].0r"><field name="tile">assets.tile`myTile`</field></shadow></value><value name="HANDLER_DRAG_PARAM_location"><shadow type="argument_reporter_custom" id="ErfE?`_@lKRF(mnTxJPr"><mutation typename="tiles.Location"/><field name="VALUE">location</field></shadow></value><statement name="HANDLER"><block type="game_show_long_text" id="9.nm4ZchN$g4[_6Z-oR?"><field name="layout">DialogLayout.Full</field><value name="str"><shadow type="text" id="-5=ahe!v{6cp9oNr1?}t"><field name="TEXT">Πιάσαμε τον hacker και το όνομά του είναι Kevin David Mitnick</field></shadow></value></block></statement></block><block type="keyonevent" id="2C={dBw!9L#zqQdrbm,s" x="-50" y="670"><field name="button">controller.up</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="spritesetimage" id="0qe(t%yWY:.I|P3?|c=G"><value name="sprite"><block type="variables_get" id="6+0*k8Onp#;BfvH4zx:X"><field name="VAR" id="U`Etsn4l`NYry[84_@DC">mySprite</field></block></value><value name="img"><shadow type="screen_image_picker" id="Al~6O=B^UlT_9%++8)|%"><field name="img">img`
+. . . . . . . c c c . . . . . . 
+. . . . . . c b 8 c . . . . . . 
+. . . . c c c 8 8 c c c . . . . 
+. . c c b c 8 8 8 8 c c c c . . 
+. c b b 8 b 8 8 8 8 b 8 b b c . 
+. c b 8 8 b b 8 8 b b 8 8 b c . 
+. . f 8 8 8 b b b b 8 8 8 c . . 
+. . f f 8 8 8 8 8 8 8 8 f f . . 
+. . f f f f f f f f f f f f . . 
+. . f f f f f f f f f f f f . . 
+. . . f f f f f f f f f f . . . 
+. . . e e f f f f f f e e . . . 
+. . e b c b 8 b b 8 b f b e . . 
+. . e e f 8 8 8 8 8 8 f e e . . 
+. . . . c b 8 8 8 8 b c . . . . 
+. . . . . f f f f f f . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"Al~6O=B^UlT_9%++8)|%"}}</data></shadow></value></block></statement></block><block type="keyonevent" id="pm*k=kE8Wx{GRnZ^[^?e" x="370" y="670"><field name="button">controller.right</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="spritesetimage" id="~H4{0{vo_NBwcPRbyu~@"><value name="sprite"><block type="variables_get" id="Mz]GCidqLYW-#Q,JmTOm"><field name="VAR" id="U`Etsn4l`NYry[84_@DC">mySprite</field></block></value><value name="img"><shadow type="screen_image_picker" id="pDrgNEE?Q7rH`FuY.GTA"><field name="img">img`
+. . . . . . . c c . . . . . . . 
+. . . . . . . c 8 c . . . . . . 
+. . . . c c c 8 8 8 c c . . . . 
+. . c c b c 8 8 8 8 c c c c . . 
+. c b b 8 b 8 8 8 8 b 8 b b c . 
+. c b 8 8 b b 8 8 b b 8 8 b c . 
+. . f 8 8 8 b b b b 8 8 8 c . . 
+. . f f 8 8 8 8 8 8 8 8 f . . . 
+. . f f e e b f e e e f . . . . 
+. . f f f b 1 f b b e f . . . . 
+. . . f f b b b b b b f . . . . 
+. . . e e f e e e e f . . . . . 
+. . . e b b e b b 8 f . . . . . 
+. . . e b b e 8 8 8 8 f . . . . 
+. . . . e e 8 8 8 8 b c . . . . 
+. . . . . f f f f f f . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"pDrgNEE?Q7rH`FuY.GTA"}}</data></shadow></value></block></statement></block><block type="keyonevent" id="=jC#uew7K3x@~ybUA,JE" x="-50" y="830"><field name="button">controller.left</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="spritesetimage" id="hoeHqGxP/=l9K~$DE,4;"><value name="sprite"><block type="variables_get" id="csz%Yq]C5Wx^eXUO0$6t"><field name="VAR" id="U`Etsn4l`NYry[84_@DC">mySprite</field></block></value><value name="img"><shadow type="screen_image_picker" id="uoFg0x%G1G_iO7;iz~v["><field name="img">img`
+. . . . . . . c c . . . . . . . 
+. . . . . . c 8 c . . . . . . . 
+. . . . c c 8 8 8 c c c . . . . 
+. . c c c c 8 8 8 8 c b c c . . 
+. c b b 8 b 8 8 8 8 b 8 b b c . 
+. c b 8 8 b b 8 8 b b 8 8 b c . 
+. . c 8 8 8 b b b b 8 8 8 f . . 
+. . . f 8 8 8 8 8 8 8 8 f f . . 
+. . . . f e e e f b e e f f . . 
+. . . . f e b b f 1 b f f f . . 
+. . . . f b b b b b b f f . . . 
+. . . . . f e e e e f e e . . . 
+. . . . . f 8 b b e b b e . . . 
+. . . . f 8 8 8 8 e b b e . . . 
+. . . . c b 8 8 8 8 e e . . . . 
+. . . . . f f f f f f . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"uoFg0x%G1G_iO7;iz~v["}}</data></shadow></value></block></statement></block><block type="keyonevent" id="88nF%%b9gB{!0xdyKBo]" x="310" y="830"><field name="button">controller.down</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="spritesetimage" id="VsNO/9Fw8aSjFu?hkvDz"><value name="sprite"><block type="variables_get" id="4e__A+:6f/~oXcXTLy1k"><field name="VAR" id="U`Etsn4l`NYry[84_@DC">mySprite</field></block></value><value name="img"><shadow type="screen_image_picker" id="hunA,36DM+!b*bwoQHr1"><field name="img">img`
+. . . . . . c c c . . . . . . . 
+. . . . . . c 8 b c . . . . . . 
+. . . . c c c 8 8 c c c . . . . 
+. . c c c c 8 5 5 8 c b c c . . 
+. c b b 8 b 8 5 5 8 b 8 b b c . 
+. c b 8 8 b b 8 8 b b 8 8 b c . 
+. . c 8 8 8 b b b b 8 8 8 f . . 
+. . f f 8 8 8 8 8 8 8 8 f f . . 
+. . f f f b f e e f b f f f . . 
+. . f f f 1 f b b f 1 f f f . . 
+. . . f f b b b b b b f f . . . 
+. . . e e f e e e e f e e . . . 
+. . e b f b 8 b b 8 b c b e . . 
+. . e e f 8 8 8 8 8 8 f e f . . 
+. . . . c b 8 8 8 8 b c . f . . 
+. . . . . f f f f f f . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"hunA,36DM+!b*bwoQHr1"}}</data></shadow></value></block></statement></block></xml>
